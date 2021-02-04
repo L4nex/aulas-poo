@@ -1,0 +1,24 @@
+1) Explique a diferença entre objeto e classe, comente quais suas funções em um programa.
+Dê exemplos de Classes e Objetos:
+	R: A classe é o planejamento ou um modelo algo que deve ser seguido como referencia para criação do objeto 	
+	ja o objeto em si é a classe "construida" algo que se pode manipular, algo que existe na memoria, como exemplo
+	temos por exemplo a classe animal onde podemos ter como atributos o nome e um peso para um animal, mas esse animal
+	so existe definitivamente quando instanciamos o objeto preenchendo seus atributos que no caso é o nome e peso do animal.
+
+
+2) Qual a definição de generalização e especialização? Exemplifique as definições.
+	R: Generalização seria uma classe mãe que contenha atributos que poderão ser herdados para classes que venham a extender
+	dela ou seja, os atributos sao "compartilhados", ja a especialização é o contrario disso, é onde temos atributos especificos
+	para aquela classe que não sao compartilhados com as demais. Como exemplo temos a classe Animal onde possuimos nome e peso
+	e abaixo dela temos a classe Leao que contem os atributos generalizados nome e peso que vieram por meio da classe Animal que 
+	ela extende, mas também temos o atributo juba e cacar, que são especificos para a classe Leao.
+	
+	
+3) O que é polimorfismo e sobrecarga de métodos? Como implementar?
+	R: Polimorfismo é quando definimos uma classe "modelo" somente com os atributos e metodos porem vazios para que cada classe
+	que venha a extender dela implemente o metodo especificado mas com suas particularidades, como por exemplo temos a classe
+	Conta que tem seu metodo com a logica nao implementada chamado calcularConta() e abaixo da classe Conta temos as classes
+	Conta de agua, conta de luz, conta de telefone, que vao implementar o metodo calcularConta() seguindo suas particularidades.
+	
+
+	
