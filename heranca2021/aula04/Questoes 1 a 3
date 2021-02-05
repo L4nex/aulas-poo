@@ -19,6 +19,7 @@ Dê exemplos de Classes e Objetos:
 	que venha a extender dela implemente o metodo especificado mas com suas particularidades, como por exemplo temos a classe
 	Conta que tem seu metodo com a logica nao implementada chamado calcularConta() e abaixo da classe Conta temos as classes
 	Conta de agua, conta de luz, conta de telefone, que vao implementar o metodo calcularConta() seguindo suas particularidades.
+	E a sobrecarga sao quando temos mais de um metodo com o mesmo nome porem recebendo tipos de parametro diferentes.
 	
 
 	
